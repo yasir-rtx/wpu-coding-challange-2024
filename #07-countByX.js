@@ -19,9 +19,11 @@
 //     return z;
 // }
 
-function countBy(x, n) {
-    return [...Array(n)].map((el, i) => (i + 1) * x);
-}
+// function countBy(x, n) {
+//     return [...Array(n)].map((el, i) => (i + 1) * x);
+// }
+
+const countBy = (x, n) => [...Array(n)].map((el, i) => (i + 1) * x);
 
 console.log(countBy(1, 10));
 console.log(countBy(2, 5));
