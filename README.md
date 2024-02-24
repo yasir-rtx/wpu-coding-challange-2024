@@ -1,1 +1,2 @@
-Repo for wpu coding challange 2024
+# Javascript Codewars Repository
+1. February
